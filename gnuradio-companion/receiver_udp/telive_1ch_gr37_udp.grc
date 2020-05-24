@@ -974,11 +974,9 @@
     </param>
   </block>
   <block>
-    <key>fractional_resampler_xx</key>
     <param>
       <key>id</key>
-      <value>fractional_resampler_xx_0</value>
-    </param>
+       </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
@@ -1021,10 +1019,8 @@
     </param>
   </block>
   <block>
-    <key>blocks_udp_sink</key>
     <param>
       <key>id</key>
-      <value>blocks_udp_sink_0</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -1036,12 +1032,10 @@
     </param>
     <param>
       <key>ipaddr</key>
-      <value>udp_dest_addr</value>
-    </param>
+      </param>
     <param>
       <key>port</key>
-      <value>udp_first_port</value>
-    </param>
+      </param>
     <param>
       <key>psize</key>
       <value>1472</value>
@@ -1142,7 +1136,6 @@
   </connection>
   <connection>
     <source_block_id>freq_xlating_fir_filter_xxx_0</source_block_id>
-    <sink_block_id>fractional_resampler_xx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -1153,8 +1146,6 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>fractional_resampler_xx_0</source_block_id>
-    <sink_block_id>blocks_udp_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
